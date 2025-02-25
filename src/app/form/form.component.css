@@ -1,0 +1,49 @@
+.container {
+    background-color: rgb(224, 254, 255);
+    color: rgb(0, 0, 0);
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #000a74;
+    border-radius: 15px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    
+}
+input{
+    padding: 10px;
+    border: 2px solid #000a74;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    font-size: 16px;
+    outline: none;
+    
+}
+button{
+    /*Personalizando o botão de salvar*/
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    /*Personalização para o botão trocar de cor quando passar o cursor por ele */
+    background-color: #000a74;
+  }
+label{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    border:1px solid #000a74;
+}

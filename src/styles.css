@@ -1,4 +1,15 @@
 body{
-    background-color: gray;
+    background-color: white(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:flex;/*alinha os elementos*/
+    justify-content: center;/*para alinhar os itens horizontalmente dentro de um container flexivel*/
+    align-items: center; /* para centralizar verticalmente elementos dentro de um contêiner flexível */
+    height: 100vh; /*altura do container na tela*/
+}
+
+H1{
+    background-color: #000a74;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
 }
