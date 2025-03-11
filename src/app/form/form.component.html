@@ -1,8 +1,8 @@
 <div class="container">
     <form>
-        <input>
-        <input>
-        <button>Somar</button>
-        <label>0.0</label>
+        <input type="number" [(ngModel)]="num1" name="num1">
+        <input type="number" [(ngModel)]="num2" name="num2">
+        <button (click)="onClickBotaoSomar()>Somar</button>
+        <label>{{soma}}</label>
     </form>
 </div>
